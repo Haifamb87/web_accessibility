@@ -1,0 +1,246 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #e73e00d0; 
+}
+
+ul {
+    list-style: none;
+}
+
+.active {
+   color: #e73e00d0; 
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: #e73e00d0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+header {
+    width: 100ww;
+    height: 10vh;
+    background-color: #F4EBE6;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 0px;
+    color: #294023;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #E73D00;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.header-content h3 {
+    color: #294023;
+    font-size: 3vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.image {
+    width: 350px;
+    height: 260px;
+    position: absolute;
+    display: block; 
+    position: absolute; /* Position the image absolutely */
+    bottom: 0; /* Align the image to the bottom of the header */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Adjust to center the image properly */
+    margin-top: 40px; 
+}
+.logoImg {
+    width: 125px;
+    height: 80px;
+    position: absolute;
+    display: block; 
+    position: absolute; /* Position the image absolutely */
+    bottom: 0; /* Align the image to the bottom of the header */
+    left: 6%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Adjust to center the image properly */
+    margin-bottom: -1%;
+}
+
+.UIUX {
+    width: 350px;
+    height: 250px;
+    display: block; 
+    padding-right: 30px;
+
+}
+main {
+   
+    background-color: #F4EBE6;
+    
+    background-size: cover;
+   
+    text-align: left;
+    font-size: 3vmin;
+    padding: 50px;
+
+    font-family: Arial, sans-serif;
+     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.line2 {
+    position: absolute;
+    width: 900px;
+    height: 2px;
+    background: #E73D00;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+
+.container {
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* تغيير لون الخلفية */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*  ظل */
+    border: 2px solid #ffbba39c; /*  للون الاطار */
+}
+
+
+h1 {
+    
+    text-align: center;
+    margin-bottom: 20px; /*المسافه بين العنواين*/
+}
+
+form {
+    margin: 0 auto;
+    width: 80%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /*  المسافة بين العناوين */
+    color: #162114;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"], 
+textarea {
+    width: 100%;
+    padding: 12px; /*  حجم الحقول */
+    margin-bottom: 20px;
+    border-radius: 8px; /*  حواف الدائرية*/
+    border: 1px solid #ccc; /* تغيير لون الحدود */
+    
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #b1bdaf; /* تغيير لون الحدود عند التركيز */
+}
+
+input[type="submit"] {
+    background-color: #F4EBE6;
+    color: #000000; /* لون الخط */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFBBA6;
+    padding: 40px 80px;
+    margin-top: 0;
+  }
+  .footer .copy {
+    color: #294023;
+  }
+  
+  .bottom-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .bottom-links .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+  .bottom-links .links span {
+    font-size: 20px;
+    color: #294023;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  .p{
+    border: 2px solid #FFBBA6;
+    border-radius: 12px;
+    padding: 5px;
+  }
+  .bottom-links .links a {
+    text-decoration: none;
+    color: #294023;
+    padding: 10px 20px;
+  }
